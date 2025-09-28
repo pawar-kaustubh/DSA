@@ -12,6 +12,7 @@ User input method
 To run this below code write in the terminal 
 
 echo "length width" | node filename.js
+echo "3 5" | node filename.js
 
 
 const input = require("fs").readFileSync(0, "utf-8").trim().split("\n");

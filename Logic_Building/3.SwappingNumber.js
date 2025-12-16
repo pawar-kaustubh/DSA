@@ -1,6 +1,6 @@
 // Write a program to swap a numbers
 // 1. By using third variable.
-
+console.log('Using third variable')
 let a = 10,
   b = 20,
   c;

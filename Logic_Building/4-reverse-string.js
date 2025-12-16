@@ -7,7 +7,7 @@ const str = String(input[0]);
   return str.split("").reverse().join("");
 } */
 
-// Using for loop
+// Using for loop 
 function reverseString(str) {
   let revStr = "";
   for (let i = str.length - 1; i >= 0; i--) {

@@ -1,7 +1,7 @@
 // find the number is Even or Odd
 function EvenOrOdd(number) {
   if (number < 0) {
-    throw new Error("Number should be greater than 0.");
+    throw new Error("Number should be greater or equal than 0.");
   }
   return number % 2 === 0
     ? ` ${number} is Even number`

@@ -1,3 +1,4 @@
+// Find the number in array and return its index
 function arrSearch(arr, x) {
   // convert  x to number
   x = Number(x);

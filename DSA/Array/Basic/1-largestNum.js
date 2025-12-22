@@ -1,4 +1,4 @@
-// Questions are include in the Basic.md files.
+// Q .find the largest number from the array
 
 function largestNumber(arr) {
   let max = arr[0];
